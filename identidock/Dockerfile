@@ -7,7 +7,7 @@ RUN pip install Flask==0.10.1 requests==2.5.1 redis==2.10.3
 
 WORKDIR /app
 
-COPY ./src /app
+COPY app /app
 COPY cmd.sh /
 
 EXPOSE 9090 9191
