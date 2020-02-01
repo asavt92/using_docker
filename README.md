@@ -1,2 +1,2 @@
 # using_docker
-Examples from book
+Learning project 
