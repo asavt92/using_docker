@@ -25,7 +25,7 @@ def mainpage():
      <input type="submit" value="submit">
      </form>
      <p>You look like a:
-     <img app="/monster/{1}"/>
+     <img src="/monster/{1}"/>
      '''.format(name, name_hash)
     footer = '</body></html>'
     return header + body + footer
